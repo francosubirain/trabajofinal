@@ -1,0 +1,1143 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* -------INDEX---------*/
+
+.conteiner {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding-top: 0;
+    position: relative;
+}
+
+
+/*---------header--------*/
+
+.registro {
+    text-align: right;
+    margin: 5px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.registro a {
+    color: gray;
+}
+
+.registro p {
+    color: gray;
+}
+
+.parrafo-horizontal a {
+    color: white;
+    text-align: left;
+}
+
+
+
+h1 {
+    color: gray;
+    font-size: 60px;
+    position: relative;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.lista-productos li {
+    display: inline;
+    margin: 10px;
+}
+
+.lista-productos a {
+
+    font-size: 28px;
+    text-decoration: none;
+    color: gray;
+}
+
+.lista-productos {
+    position: sticky;
+    top: 0px;
+    text-align: center;
+    font-size: x-large;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+.lista-productos :hover {
+
+    filter: brightness(20%);
+}
+
+
+/*------- MAIN ------- */
+.main-tarjetas {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+
+.tarjeta-optica {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin: 20px;
+
+}
+
+.tarjeta-optica img {
+    width: 320px;
+    border-left: 5px black;
+    border-right: 5px black;
+    border-top: 5px black;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border: solid 1px black;
+
+}
+
+.border-card {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+
+}
+
+.info-card {
+    background-color: grey;
+    padding: 9px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 320px;
+    color: white;
+    margin-right: 20px;
+    border: solid 1px black;
+
+}
+
+.h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.button-tarjetas {
+    background-color: white;
+    padding: 10px 15px;
+    margin: 10px;
+    font-family: 'Montserrat';
+    font-size: 15px;
+    font-weight: 500;
+    border-color: gray;
+    color: black;
+}
+
+.button-tarjetas:hover {
+    transform: scale(1.5);
+    transition: all 1s ease;
+    filter: brightness(70%);
+    background-color: aquamarine;
+
+}
+
+.button-tarjetas a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.lista-compra {
+    color: gray;
+    text-align: left;
+    margin: 10px;
+    border-color: transparent;
+    border-radius: 10px;
+}
+
+/*-------- FOOTER ------ */
+
+.contactanos {
+    text-align: center;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    color: rgb(78, 47, 47);
+    padding-top: 10px;
+    background-color: white;
+
+}
+
+.contactanos p {
+    color: rgb(78, 47, 47);
+
+}
+
+.contactanos address {
+    color: rgb(78, 47, 47);
+}
+
+
+
+h5 {
+    color: rgb(78, 47, 47);
+}
+
+.contacto {
+    text-align: right;
+    margin: 10px;
+    padding: 10px;
+}
+
+.contacto nav {
+    color: rgb(78, 47, 47);
+}
+
+.contacto a {
+    color: rgb(78, 47, 47);
+}
+
+.redes {
+
+    text-align: center;
+    color: rgb(78, 47, 47);
+}
+
+.redes a {
+    color: rgb(78, 47, 47);
+}
+
+.redes a i {
+    font-size: 15px;
+    color: rgb(78, 47, 47);
+
+}
+
+.redes a i:hover {
+    transform: scale(2);
+    transition: all 1s ease;
+}
+
+.volver-inicio {
+    color: rgb(78, 47, 47);
+}
+
+.arriba a {
+    color: white;
+}
+
+.contactanos i:hover {
+    transform: scale(2);
+    transition: all 1s ease;
+
+}
+
+/*----------- FORMULARIO REGISTRO -----------*/
+
+.formulario-registro form {
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    color: gray;
+}
+
+
+.formulario-registro input[type=text],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 12px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+
+}
+
+.formulario-registro input[type=dni] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 12px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+.formulario-registro input[type=submit] {
+    width: 100%;
+    background-color: gray;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+
+}
+
+.formulario-registro input[type=submit]:hover {
+    background-color: gray;
+    transform: scale(1.5);
+}
+
+.formulario-registro input[type=reset]:hover {
+    background-color: gray;
+    transform: scale(1.5);
+}
+
+.formulario-registro div {
+    border-radius: 5px;
+    background-color: aqua;
+    padding: 8px;
+    margin: 8px;
+    text-align: left;
+    font-size: 100%;
+    color: gray;
+}
+
+.formulario-registro input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 12px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.formulario-registro input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 12px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+.formulario-registro input[type=reset] {
+    width: 100%;
+    background-color: gray;
+    color: white;
+    padding: 14px 20px;
+    margin: 12px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+
+
+/*------------ FORMULARIO CONTACTO----------*/
+
+.formulario-contacto legend {
+    color: gray;
+    text-align: center;
+    border-radius: 10px solid black;
+}
+
+.formulario-contacto form {
+    background-color: aqua;
+    width: 40%;
+    margin: 15px;
+
+
+}
+
+
+.formulario-contacto input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box
+}
+
+.formulario-contacto input[type=submit] {
+    width: 100%;
+    display: block;
+    background-color: gray;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.formulario-contacto input[type=reset] {
+    width: 100%;
+    background-color: gray;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.formulario-contacto input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.formulario-contacto input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.formulario-contacto textarea {
+    width: 100%;
+
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/*------------------ GORRAS ---------*/
+
+.lista-gorras ul {
+    color: gray;
+    margin-left: 20px;
+    padding-bottom: 30px;
+}
+
+.lista-gorras p {
+    color: gray;
+    margin-left: 10px;
+
+}
+
+.lista-gorras li {
+    display: inline;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 100px;
+    padding: 10px;
+    gap: 10px;
+    text-align: center;
+    background-color: beige;
+
+}
+
+.gorra-parrafo {
+    text-align: center;
+}
+
+.marcas-gorras {
+    text-align: center;
+}
+
+
+.grid-imagen {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.grid-item:nth-child(1) {
+    grid-row-start: 2 span;
+}
+
+.grid-item:nth-child(2) {
+    grid-column-start: 2 span;
+}
+
+.grid-item:nth-child(3) {
+    grid-row-start: 2 span;
+}
+
+.grid-item:nth-child(5) {
+    grid-row-start: 2 span;
+}
+
+.grid-item:nth-child(8) {
+    grid-row-start: span;
+}
+
+.grid-item:nth-child(10) {
+    grid-column-start: 2 span;
+}
+
+.grid-item:nth-child(11) {
+    grid-column-start: 3 span;
+}
+
+.grid-item:nth-child(12) {
+    grid-column-start: 2 span;
+}
+
+.grid-item:nth-child(13) {
+    grid-column-start: 2 span;
+}
+
+.grid-item:nth-child(14) {
+    grid-column-start: 3 span;
+}
+
+
+
+.grid-item :hover {
+    box-shadow: 10px 10px 10px black;
+    transition: all 0.6s ease;
+    filter: brightness(20%);
+}
+
+.imagenes-flex {
+    background-image: url(./images/anteojosleer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+/* ------------- ARMAZONES ------- */
+
+.conteiner-flex-anteojos-leer {
+    margin: 0px;
+    padding-bottom: 0px;
+    background-image: url(./images/optica3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.armazon {
+    color: gray;
+}
+
+.lista-armazones {
+    color: gray;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.listas-armazon1 {
+    font-size: 20px;
+    padding: 10px;
+    background-color: gray;
+    color: white;
+}
+
+.listas-armazon2 {
+    font-size: 20px;
+    padding: 10px;
+    background-color: white;
+    color: gray;
+
+}
+
+.listas-armazon3 {
+    font-size: 20px;
+    padding: 10px;
+    background-color: gray;
+    color: white;
+
+}
+
+.tit-armazon {
+    text-align: center;
+    font-size: 20px;
+    background-color: white;
+    border-top: solid 1px black;
+}
+
+
+/*------------ANTEOJOS DE SOL---------*/
+
+.anteojos-sol h3 {
+    color: gray;
+    margin: 5px;
+    padding: 5px;
+}
+
+.anteojos-sol p {
+    color: gray;
+    margin: 5px;
+    padding: 5px;
+}
+
+
+
+.tabla-filtro h3 {
+    text-align: center;
+    color: gray;
+    padding-top: 0%;
+    font-size: 40px;
+
+
+}
+
+.tabla-filtro table {
+    border: solid 1px black;
+    border-collapse: collapse;
+    padding: 20px;
+    margin: 40px;
+    font-size: 21px;
+    color: gray;
+    align-items: center;
+    justify-content: center;
+    width: 1250px;
+    height: 400px;
+    text-align: center;
+
+}
+
+
+.tabla-filtro table th {
+    color: white;
+    background-color: gray;
+    padding: 10px;
+}
+
+.tabla-filtro table tr:nth-child(even) {
+    background-color: white;
+    color: gray;
+}
+
+.tabla-filtro table tr {
+    background-color: gray;
+    color: white;
+}
+
+.franja {
+    height: 200px;
+    background-color: rgb(78, 47, 47);
+    margin-top: 0%;
+}
+
+
+
+@media screen and (max-width:768px) {
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 100px;
+        padding: 10px;
+        gap: 10px;
+        text-align: center;
+        background-color: beige;
+
+    }
+
+    .grid-item:nth-child(1) {
+        grid-row-start: 2 span;
+    }
+
+    .grid-item:nth-child(2) {
+        grid-column-start: 1 span;
+    }
+
+    .grid-item:nth-child(3) {
+        grid-row-start: 2 span;
+    }
+
+    .grid-item:nth-child(5) {
+        grid-row-start: 1 span;
+    }
+
+    .grid-item:nth-child(6) {
+        grid-column-start: 2 span;
+    }
+
+    .grid-item:nth-child(8) {
+        grid-row-start: span;
+    }
+
+    .grid-item:nth-child(10) {
+        grid-column-start: 1 span;
+    }
+
+    .grid-item:nth-child(11) {
+        grid-column-start: 2 span;
+
+    }
+
+    .grid-item:nth-child(12) {
+        grid-column-start: 1 span;
+    }
+
+    .grid-item:nth-child(13) {
+        grid-column-start: 1 span;
+    }
+
+    .grid-item:nth-child(14) {
+        grid-column-start: 1 span;
+    }
+
+    .gorra-parrafo {
+        padding-top: 15px;
+        padding-left: 15px;
+        padding-right: 10px;
+        text-align: center;
+        font-size: 15px;
+    }
+
+
+    .marcas-gorras {
+        text-align: center;
+    }
+
+    .lista-productos a {
+        font-size: 25px;
+    }
+
+    .main-tarjetas {
+        display: block;
+        justify-content: center;
+        margin: 10px;
+        padding: 10px;
+    }
+
+
+    h1 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:420) {
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 100px;
+        padding: 10px;
+        gap: 10px;
+        text-align: center;
+        background-color: beige;
+    }
+
+    .grid-item:nth-child(1) {
+        grid-row-start: 1 span;
+    }
+
+    .grid-item:nth-child(2) {
+        grid-column-start: 1 span;
+    }
+
+    .grid-item:nth-child(3) {
+        grid-row-start: 2 span;
+    }
+
+    .grid-item:nth-child(5) {
+        grid-row-start: 1 span;
+    }
+
+    .grid-item:nth-child(6) {
+        grid-column-start: 1 span;
+    }
+
+    .grid-item:nth-child(8) {
+        grid-row-start: 2 span;
+    }
+
+    .grid-item:nth-child(10) {
+        grid-column-start: 1 span;
+    }
+
+    .grid-item:nth-child(11) {
+        grid-column-start: 1 span;
+
+    }
+
+    .grid-item:nth-child(12) {
+        grid-column-start: 1 span;
+    }
+
+    .grid-item:nth-child(13) {
+        grid-column-start: 1 span;
+    }
+
+    .grid-item:nth-child(14) {
+        grid-column-start: 1 span;
+    }
+
+
+    .gorra-parrafo {
+        padding-top: 15px;
+        padding-left: 15px;
+        padding-right: 10px;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .marcas-gorras {
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .lista-productos a {
+        font-size: 20px;
+    }
+
+
+    .main-tarjetas {
+        display: block;
+        justify-content: center;
+        margin: 10px;
+        padding: 10px;
+    }
+
+}
+
+
+/*------------sunglasses---------*/
+.navbar {
+    background-color: rgb(78, 47, 47);
+}
+
+.container-sabias {
+    margin-top: 50px;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    color: white;
+}
+
+.navbar-nav li {
+    color: white;
+
+}
+
+.nav-link {
+    color: white;
+    font-size: 20px;
+}
+
+.sabias {
+    text-align: center;
+    margin: 100px;
+    color: white;
+
+}
+
+
+.nright {
+    color: white;
+    margin-right: 0px;
+}
+
+.jumbotron {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/anteojito.webp);
+    background-position: center;
+    background-size: cover;
+    margin-right: 0px;
+    margin-bottom: 0%;
+    border-radius: 0%;
+}
+
+.item {
+    height: 400px;
+    border: 1px solid black;
+    margin-top: 0%;
+    margin-right: 0%;
+}
+
+
+
+.item1 {
+    background-image: url(./images/anteojo1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item2 {
+    background-image: url(./images/anteojo2.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.item3 {
+    background-image: url(./images/anteojo3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item4 {
+    background-image: url(./images/anteojo4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item5 {
+    background-image: url(./images/anteojo6.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item6 {
+    background-image: url(./images/anteojo5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item7 {
+    background-image: url(./images/anteojo7.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item8 {
+    background-image: url(./images/anteojo8.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item9 {
+    background-image: url(./images/anteojo9.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item10 {
+    background-image: url(./images/anteojo10.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item11 {
+    background-image: url(./images/anteojo11.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item12 {
+    background-image: url(./images/anteojo12.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item13 {
+    background-image: url(./images/anteojo101.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item14 {
+    background-image: url(./images/anteojo14.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.item15 {
+    background-image: url(./images/anteojo15.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item16 {
+    background-image: url(./images/anteojo16.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.item1 :hover{
+    box-shadow: 10px 10px 10px black;
+    transition: all 0.6s ease;
+    filter: brightness(20%);
+}
+
+
+.container-table h2 {
+    color: white;
+    text-align: center;
+    margin: 30px;
+    margin-right: 0px;
+}
+
+
+
+
+.table {
+    color: white;
+    text-align: center;
+}
+
+.carousel-caption {
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+
+}
+
+.carousel-caption img {
+    margin: 0%;
+    text-decoration: none;
+    background-color: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+
+
+
+
+.container-porque {
+    color: white;
+    text-align: center;
+}
+.jumbotron-gorra{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/gorra118.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-right: 0px;
+    margin-bottom: 0%;
+    border-radius: 0%;
+    height: 500px;
+}
+
+.porque{
+    margin-top: 200px;
+}
+
+.text-porque{
+    margin-top: 180px;
+}
+
+.gitem1{
+    background-image: url(./images/gorra101.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.gitem2{
+    background-image: url(./images/gorra102.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.gitem3{
+    background-image: url(./images/gorra103.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.gitem4{
+    background-image: url(./images/gorra104.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.gitem5{
+    background-image: url(./images/gorra105.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.gitem6{
+    background-image: url(./images/gorra106.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.gitem7{
+    background-image: url(./images/gorra107.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.gitem8{
+    background-image: url(./images/gorra108.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.gitem9{
+    background-image: url(./images/gorra109.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.gitem10{
+    background-image: url(./images/gorra110.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.gitem11{
+    background-image: url(./images/gorra111.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.gitem12{
+    background-image: url(./images/gorra112.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.gitem13{
+    background-image: url(./images/gorra113.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.gitem14{
+    background-image: url(./images/gorra114.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.gitem15{
+    background-image: url(./images/gorra115.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.gitem16{
+    background-image: url(./images/gorra116.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.sunglasses  :hover{
+    box-shadow: 10px 10px 10px black;
+    transition: all 0.6s ease;
+    filter: brightness(20%);
+}
+
+.cap :hover{
+    box-shadow: 10px 10px 10px black;
+    transition: all 0.6s ease;
+    filter: brightness(20%);
+}
+
+.nav-link:hover{
+    color: black;
+}
+
+.navbar-brand:hover{
+    color: black;
+}
+   
