@@ -250,7 +250,7 @@ h5 {
 
 }
 
-/*----------- FORMULARIO REGISTRO -----------*/
+/*----------- FORMULARIO REGISTRO -----------
 
 .formulario-registro form {
     width: 50%;
@@ -348,6 +348,7 @@ select {
     cursor: pointer;
 }
 
+*/
 
 
 
@@ -435,6 +436,8 @@ select {
 }
 
 /*------------------ GORRAS ---------*/
+
+/*
 
 .lista-gorras ul {
     color: gray;
@@ -588,7 +591,7 @@ select {
 
 
 /*------------ANTEOJOS DE SOL---------*/
-
+/*
 .anteojos-sol h3 {
     color: gray;
     margin: 5px;
@@ -643,6 +646,8 @@ select {
     background-color: gray;
     color: white;
 }
+
+*/
 
 .franja {
     height: 200px;
@@ -1140,4 +1145,33 @@ select {
 .navbar-brand:hover{
     color: black;
 }
-   
+ 
+
+/*------------armazons---------*/
+.ubicacion-armazon{
+    margin-top: 80px;
+}
+
+.ubicacion-armazon li{
+    margin-left: 120px;
+}
+
+.jumbotron-armazon{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/armazon2.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-right: 0px;
+    margin-bottom: 0%;
+    border-radius: 0%;
+    height: 400px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.navbar{
+    margin-bottom: 0px;
+}
+
+.container-armazon {
+    margin-top: 0px;
+}
