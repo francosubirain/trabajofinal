@@ -656,20 +656,24 @@ select {
         grid-column-start: 1 span;
     }
 
-    
-
-
-
     h1 {
         font-size: 40px;
     }
+
+    .sabias h2{
+        font-size: 5px;
+    }
+
 }
 
 @media screen and (max-width:420) {
 
+    .container-armazon h2{
+        font-size: 5px;
+    }
 
 
-    
+
     .grid-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -1074,33 +1078,26 @@ select {
 
 
 /*------------armazons---------*/
-.ubicacion-armazon {
-    margin-top: 80px;
-}
-
-.ubicacion-armazon li {
-    margin-left: 120px;
-}
-
-.jumbotron-armazon {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/armazon2.jpg);
-    background-position: center;
-    background-size: cover;
-    margin-right: 0px;
-    margin-bottom: 0%;
-    border-radius: 0%;
-    height: 350px;
-    margin-top: 0px;
-    padding-top: 0px;
-}
 
 .navbar {
     margin-bottom: 0px;
 }
 
-.container-armazon {
-    margin-top: 0px;
+.jumbotron-armazon{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/armazon2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
 }
+
+.container-armazon h1{
+    color: white;
+    }
+
+    .container-armazon{
+        text-align: center;
+        color: white;
+    }
 
 .fotoaro {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/armazon101.jpg);
@@ -1186,11 +1183,22 @@ select {
 }
 
 
+/*------------CONTACTO---------*/
 .formulario-contacto{
     margin: 0%;
 }
+
+
+
+
+
+
+
 
 .navbar-toggler-icon{
     color: white;
     box-shadow: 0 0 5px black;
 }
+
+
+
